@@ -11,8 +11,9 @@ import med.voll.api.paciente.DadosCadastroPaciente;
 @RequestMapping("/paciente")
 public class PacienteController {
 
+	
+	
 	@PostMapping
 	public void cadastroPaciente(@RequestBody DadosCadastroPaciente dadosPaciente) {
-		System.out.println(dadosPaciente);
 	}
 }
